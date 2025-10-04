@@ -1,0 +1,1120 @@
+2025-10-03 19:20:07 | INFO     | src.data.database.vector_store:__init__ | Initializing vector store: documents
+2025-10-03 19:20:07 | INFO     | src.models.embeddings:__init__ | Loading embedding model: all-MiniLM-L6-v2
+2025-10-03 19:20:12 | INFO     | src.models.embeddings:__init__ | Embedding model loaded. Dimension: 384
+2025-10-03 19:20:12 | INFO     | src.data.database.vector_store:__init__ | Vector store ready. Documents: 0
+2025-10-03 19:20:14 | INFO     | src.models.llm:__init__ | Ollama LLM initialized: mistral
+2025-10-03 19:20:14 | INFO     | src.api.routes:<module> | All components initialized successfully
+2025-10-03 19:20:14 | INFO     | __main__:main | Starting RAG System API Server...
+2025-10-03 19:20:14 | INFO     | __main__:main | Host: 0.0.0.0
+2025-10-03 19:20:14 | INFO     | __main__:main | Port: 8000
+2025-10-03 19:20:14 | INFO     | __main__:main | Ollama Model: mistral
+2025-10-03 19:20:14 | INFO     | src.api.server:create_app | FastAPI application created successfully
+2025-10-03 19:22:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206001_Key_Aggregates.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206001_Key_Aggregates.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 18 chunks from 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 19:22:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206006_Industry_GVA.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 38 chunks from 5206006_Industry_GVA.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206007_Income_From_GDP.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206007_Income_From_GDP.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206009_Changes_In_Inventories.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206009_Changes_In_Inventories.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206010_Agricultural_Income.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206010_Agricultural_Income.xlsx
+2025-10-03 19:22:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206011_National_Income_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206011_National_Income_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206012_National_Capital_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206012_National_Capital_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206013_NFC_Income.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206013_NFC_Income.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206014_PriNFC_Income.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206014_PriNFC_Income.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206015_PubNFC_Income.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206015_PubNFC_Income.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206016_FC_Income.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206016_FC_Income.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 13 chunks from 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:22:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206020_Household_Income.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206020_Household_Income.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206021_External_Account.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 7 chunks from 5206021_External_Account.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206022_Taxes.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206022_Taxes.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206025_SFD_Summary.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 23 chunks from 5206025_SFD_Summary.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206026_SFD_NSW.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206026_SFD_NSW.xlsx
+2025-10-03 19:22:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206027_SFD_VIC.xlsx
+2025-10-03 19:22:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206027_SFD_VIC.xlsx
+2025-10-03 19:22:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206028_SFD_QLD.xlsx
+2025-10-03 19:22:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206028_SFD_QLD.xlsx
+2025-10-03 19:22:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206029_SFD_SA.xlsx
+2025-10-03 19:22:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206029_SFD_SA.xlsx
+2025-10-03 19:22:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206030_SFD_WA.xlsx
+2025-10-03 19:22:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206030_SFD_WA.xlsx
+2025-10-03 19:22:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206031_SFD_TAS.xlsx
+2025-10-03 19:22:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206031_SFD_TAS.xlsx
+2025-10-03 19:22:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206032_SFD_NT.xlsx
+2025-10-03 19:22:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206032_SFD_NT.xlsx
+2025-10-03 19:22:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206033_SFD_ACT.xlsx
+2025-10-03 19:22:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206033_SFD_ACT.xlsx
+2025-10-03 19:22:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206040_External_Account_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206040_External_Account_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206041_Industry_Indexes.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206041_Industry_Indexes.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206044_State_COE_Summary.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206044_State_COE_Summary.xlsx
+2025-10-03 19:22:45 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Created 28 chunks from 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232001.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232001.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232002.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232002.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232003.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232003.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232004.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5232004.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232005.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232005.xlsx
+2025-10-03 19:22:46 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232006.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232006.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232007.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232007.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232008.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232008.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232009.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232009.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232010.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232010.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232011.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232011.xlsx
+2025-10-03 19:22:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232012.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232012.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232013.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232013.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232014.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 33 chunks from 5232014.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232015.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 16 chunks from 5232015.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232016.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 50 chunks from 5232016.xlsx
+2025-10-03 19:22:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232017.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232017.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232018.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 22 chunks from 5232018.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232019.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232019.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232020.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232020.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232021.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5232021.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232022.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232022.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232023.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5232023.xlsx
+2025-10-03 19:22:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232024.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 27 chunks from 5232024.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232025.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 20 chunks from 5232025.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232026.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232026.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232027.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232027.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232028.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232028.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232029.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232029.xlsx
+2025-10-03 19:22:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232030.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232030.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232031.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232031.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232032.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5232032.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232033.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232033.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232034.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232034.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232035.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232035.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232036.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232036.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232037.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232037.xlsx
+2025-10-03 19:22:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232038.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 45 chunks from 5232038.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232039.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232039.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232040.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5232040.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232041.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5232041.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232042.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 9 chunks from 5232042.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232043.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232043.xlsx
+2025-10-03 19:22:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232044.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 47 chunks from 5232044.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232045.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 21 chunks from 5232045.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232046.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232046.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232047.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232047.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232048.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232048.xlsx
+2025-10-03 19:22:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232049.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232049.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232050.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 42 chunks from 5232050.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232051.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232051.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232052.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232052.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232053.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232053.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232054.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232054.xlsx
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: Household spending at current prices.csv
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 2 chunks from Household spending at current prices.csv
+2025-10-03 19:22:54 | INFO     | src.data.processors.tabular_processor:process_directory | Processed 1940 total chunks from directory
+2025-10-03 19:22:54 | INFO     | src.data.database.vector_store:add_documents | Adding 1940 documents to vector store
+2025-10-03 19:28:13 | INFO     | src.data.database.vector_store:add_documents | Successfully added 1940 documents
+2025-10-03 19:28:13 | INFO     | src.data.database.vector_store:search | Searching for: 'my age is 20 my income is 25000 how much should i save for the future?' (top_k=5)
+2025-10-03 19:28:13 | INFO     | src.data.database.vector_store:search | Found 5 results
+2025-10-03 19:28:13 | INFO     | src.models.llm:generate_response | Generating response with Ollama (mistral)...
+2025-10-03 19:28:15 | ERROR    | src.models.llm:generate_response | Error generating response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2025-10-03 19:28:15 | ERROR    | src.api.routes:query_rag | Query error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2025-10-03 19:28:42 | INFO     | src.data.database.vector_store:search | Searching for: 'my age is 20 my income is 25000 how much should i save for the future?' (top_k=2)
+2025-10-03 19:28:42 | INFO     | src.data.database.vector_store:search | Found 2 results
+2025-10-03 19:28:42 | INFO     | src.models.llm:generate_response | Generating response with Ollama (mistral)...
+2025-10-03 19:28:44 | ERROR    | src.models.llm:generate_response | Error generating response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2025-10-03 19:28:44 | ERROR    | src.api.routes:query_rag | Query error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2025-10-03 19:32:55 | INFO     | src.data.database.vector_store:__init__ | Initializing vector store: documents
+2025-10-03 19:32:55 | INFO     | src.models.embeddings:__init__ | Loading embedding model: all-MiniLM-L6-v2
+2025-10-03 19:32:59 | INFO     | src.models.embeddings:__init__ | Embedding model loaded. Dimension: 384
+2025-10-03 19:32:59 | INFO     | src.data.database.vector_store:__init__ | Vector store ready. Documents: 0
+2025-10-03 19:33:01 | INFO     | src.models.llm:__init__ | Ollama LLM initialized: mistral
+2025-10-03 19:33:01 | INFO     | src.api.routes:<module> | All components initialized successfully
+2025-10-03 19:33:01 | INFO     | __main__:main | Starting RAG System API Server...
+2025-10-03 19:33:01 | INFO     | __main__:main | Host: 0.0.0.0
+2025-10-03 19:33:01 | INFO     | __main__:main | Port: 8000
+2025-10-03 19:33:01 | INFO     | __main__:main | Ollama Model: mistral
+2025-10-03 19:33:01 | INFO     | src.api.server:create_app | FastAPI application created successfully
+2025-10-03 19:33:46 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206001_Key_Aggregates.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206001_Key_Aggregates.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 18 chunks from 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206006_Industry_GVA.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Created 38 chunks from 5206006_Industry_GVA.xlsx
+2025-10-03 19:33:47 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206007_Income_From_GDP.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206007_Income_From_GDP.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206009_Changes_In_Inventories.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206009_Changes_In_Inventories.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206010_Agricultural_Income.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206010_Agricultural_Income.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206011_National_Income_Account.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206011_National_Income_Account.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206012_National_Capital_Account.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206012_National_Capital_Account.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206013_NFC_Income.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206013_NFC_Income.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206014_PriNFC_Income.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206014_PriNFC_Income.xlsx
+2025-10-03 19:33:48 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206015_PubNFC_Income.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206015_PubNFC_Income.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206016_FC_Income.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206016_FC_Income.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 13 chunks from 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206020_Household_Income.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206020_Household_Income.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206021_External_Account.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 7 chunks from 5206021_External_Account.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206022_Taxes.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206022_Taxes.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 19:33:49 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 19:33:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 19:33:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206025_SFD_Summary.xlsx
+2025-10-03 19:33:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 23 chunks from 5206025_SFD_Summary.xlsx
+2025-10-03 19:33:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206026_SFD_NSW.xlsx
+2025-10-03 19:33:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206026_SFD_NSW.xlsx
+2025-10-03 19:33:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206027_SFD_VIC.xlsx
+2025-10-03 19:33:50 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206027_SFD_VIC.xlsx
+2025-10-03 19:33:50 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206028_SFD_QLD.xlsx
+2025-10-03 19:33:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206028_SFD_QLD.xlsx
+2025-10-03 19:33:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206029_SFD_SA.xlsx
+2025-10-03 19:33:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206029_SFD_SA.xlsx
+2025-10-03 19:33:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206030_SFD_WA.xlsx
+2025-10-03 19:33:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206030_SFD_WA.xlsx
+2025-10-03 19:33:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206031_SFD_TAS.xlsx
+2025-10-03 19:33:51 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206031_SFD_TAS.xlsx
+2025-10-03 19:33:51 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206032_SFD_NT.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206032_SFD_NT.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206033_SFD_ACT.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206033_SFD_ACT.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 19:33:52 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206040_External_Account_Annual.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206040_External_Account_Annual.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206041_Industry_Indexes.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206041_Industry_Indexes.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206044_State_COE_Summary.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206044_State_COE_Summary.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 28 chunks from 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232001.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232001.xlsx
+2025-10-03 19:33:53 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232002.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232002.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232003.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232003.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232004.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5232004.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232005.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232005.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232006.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232006.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232007.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232007.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232008.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232008.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232009.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232009.xlsx
+2025-10-03 19:33:54 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232010.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232010.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232011.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232011.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232012.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232012.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232013.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232013.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232014.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Created 33 chunks from 5232014.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232015.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Created 16 chunks from 5232015.xlsx
+2025-10-03 19:33:55 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232016.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Created 50 chunks from 5232016.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232017.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232017.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232018.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Created 22 chunks from 5232018.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232019.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232019.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232020.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232020.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232021.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5232021.xlsx
+2025-10-03 19:33:56 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232022.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232022.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232023.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5232023.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232024.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Created 27 chunks from 5232024.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232025.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Created 20 chunks from 5232025.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232026.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232026.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232027.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232027.xlsx
+2025-10-03 19:33:57 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232028.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232028.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232029.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232029.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232030.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232030.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232031.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232031.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232032.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5232032.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232033.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232033.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232034.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232034.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232035.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232035.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232036.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232036.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232037.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232037.xlsx
+2025-10-03 19:33:58 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232038.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Created 45 chunks from 5232038.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232039.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232039.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232040.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5232040.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232041.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5232041.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232042.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Created 9 chunks from 5232042.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232043.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232043.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232044.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Created 47 chunks from 5232044.xlsx
+2025-10-03 19:33:59 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232045.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 21 chunks from 5232045.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232046.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232046.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232047.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232047.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232048.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232048.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232049.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232049.xlsx
+2025-10-03 19:34:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232050.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 42 chunks from 5232050.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232051.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232051.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232052.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232052.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232053.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232053.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232054.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232054.xlsx
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: Household spending at current prices.csv
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 2 chunks from Household spending at current prices.csv
+2025-10-03 19:34:01 | INFO     | src.data.processors.tabular_processor:process_directory | Processed 1940 total chunks from directory
+2025-10-03 19:34:01 | INFO     | src.data.database.vector_store:add_documents | Adding 1940 documents to vector store
+2025-10-03 19:38:54 | INFO     | src.data.database.vector_store:add_documents | Successfully added 1940 documents
+2025-10-03 19:38:54 | INFO     | src.data.database.vector_store:search | Searching for: 'my age is 20 my income is 25000 how much should i save for future?' (top_k=2)
+2025-10-03 19:38:54 | INFO     | src.data.database.vector_store:search | Found 2 results
+2025-10-03 19:38:54 | INFO     | src.models.llm:generate_response | Generating response with Ollama (mistral)...
+2025-10-03 19:38:57 | ERROR    | src.models.llm:generate_response | Error generating response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2025-10-03 19:38:57 | ERROR    | src.api.routes:query_rag | Query error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2025-10-03 19:41:04 | INFO     | src.data.database.vector_store:__init__ | Initializing vector store: documents
+2025-10-03 19:41:05 | INFO     | src.models.embeddings:__init__ | Loading embedding model: all-MiniLM-L6-v2
+2025-10-03 19:41:09 | INFO     | src.models.embeddings:__init__ | Embedding model loaded. Dimension: 384
+2025-10-03 19:41:09 | INFO     | src.data.database.vector_store:__init__ | Vector store ready. Documents: 0
+2025-10-03 19:41:12 | INFO     | src.models.llm:__init__ | Ollama LLM initialized: mistral
+2025-10-03 19:41:12 | INFO     | src.api.routes:<module> | All components initialized successfully
+2025-10-03 19:41:12 | INFO     | __main__:main | Starting RAG System API Server...
+2025-10-03 19:41:12 | INFO     | __main__:main | Host: 0.0.0.0
+2025-10-03 19:41:12 | INFO     | __main__:main | Port: 8000
+2025-10-03 19:41:12 | INFO     | __main__:main | Ollama Model: mistral
+2025-10-03 19:41:12 | INFO     | src.api.server:create_app | FastAPI application created successfully
+2025-10-03 19:42:26 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206001_Key_Aggregates.xlsx
+2025-10-03 19:42:27 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206001_Key_Aggregates.xlsx
+2025-10-03 19:42:27 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 19:42:27 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 19:42:27 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 19:42:27 | INFO     | src.data.processors.tabular_processor:process_file | Created 18 chunks from 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 19:42:27 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 19:42:28 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 19:42:28 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 19:42:28 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 19:42:28 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206006_Industry_GVA.xlsx
+2025-10-03 19:42:28 | INFO     | src.data.processors.tabular_processor:process_file | Created 38 chunks from 5206006_Industry_GVA.xlsx
+2025-10-03 19:42:28 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206007_Income_From_GDP.xlsx
+2025-10-03 19:42:28 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206007_Income_From_GDP.xlsx
+2025-10-03 19:42:28 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206009_Changes_In_Inventories.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206009_Changes_In_Inventories.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206010_Agricultural_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206010_Agricultural_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206011_National_Income_Account.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206011_National_Income_Account.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206012_National_Capital_Account.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206012_National_Capital_Account.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206013_NFC_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206013_NFC_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206014_PriNFC_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206014_PriNFC_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206015_PubNFC_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206015_PubNFC_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206016_FC_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206016_FC_Income.xlsx
+2025-10-03 19:42:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 13 chunks from 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206020_Household_Income.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206020_Household_Income.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206021_External_Account.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 7 chunks from 5206021_External_Account.xlsx
+2025-10-03 19:42:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206022_Taxes.xlsx
+2025-10-03 19:42:31 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206022_Taxes.xlsx
+2025-10-03 19:42:31 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 19:42:31 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 19:42:31 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 19:42:31 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 19:42:31 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206025_SFD_Summary.xlsx
+2025-10-03 19:42:31 | INFO     | src.data.processors.tabular_processor:process_file | Created 23 chunks from 5206025_SFD_Summary.xlsx
+2025-10-03 19:42:31 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206026_SFD_NSW.xlsx
+2025-10-03 19:42:32 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206026_SFD_NSW.xlsx
+2025-10-03 19:42:32 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206027_SFD_VIC.xlsx
+2025-10-03 19:42:32 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206027_SFD_VIC.xlsx
+2025-10-03 19:42:32 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206028_SFD_QLD.xlsx
+2025-10-03 19:42:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206028_SFD_QLD.xlsx
+2025-10-03 19:42:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206029_SFD_SA.xlsx
+2025-10-03 19:42:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206029_SFD_SA.xlsx
+2025-10-03 19:42:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206030_SFD_WA.xlsx
+2025-10-03 19:42:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206030_SFD_WA.xlsx
+2025-10-03 19:42:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206031_SFD_TAS.xlsx
+2025-10-03 19:42:34 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206031_SFD_TAS.xlsx
+2025-10-03 19:42:34 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206032_SFD_NT.xlsx
+2025-10-03 19:42:34 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206032_SFD_NT.xlsx
+2025-10-03 19:42:34 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206033_SFD_ACT.xlsx
+2025-10-03 19:42:34 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206033_SFD_ACT.xlsx
+2025-10-03 19:42:34 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206040_External_Account_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206040_External_Account_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206041_Industry_Indexes.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206041_Industry_Indexes.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206044_State_COE_Summary.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206044_State_COE_Summary.xlsx
+2025-10-03 19:42:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 28 chunks from 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232001.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232001.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232002.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232002.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232003.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232003.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232004.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5232004.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232005.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232005.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232006.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232006.xlsx
+2025-10-03 19:42:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232007.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232007.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232008.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232008.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232009.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232009.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232010.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232010.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232011.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232011.xlsx
+2025-10-03 19:42:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232012.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232012.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232013.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232013.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232014.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 33 chunks from 5232014.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232015.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 16 chunks from 5232015.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232016.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 50 chunks from 5232016.xlsx
+2025-10-03 19:42:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232017.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232017.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232018.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 22 chunks from 5232018.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232019.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232019.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232020.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232020.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232021.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5232021.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232022.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232022.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232023.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5232023.xlsx
+2025-10-03 19:42:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232024.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 27 chunks from 5232024.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232025.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 20 chunks from 5232025.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232026.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232026.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232027.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232027.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232028.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232028.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232029.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232029.xlsx
+2025-10-03 19:42:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232030.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232030.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232031.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232031.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232032.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5232032.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232033.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232033.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232034.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232034.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232035.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232035.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232036.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232036.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232037.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232037.xlsx
+2025-10-03 19:42:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232038.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 45 chunks from 5232038.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232039.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232039.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232040.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5232040.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232041.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5232041.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232042.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 9 chunks from 5232042.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232043.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232043.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232044.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 47 chunks from 5232044.xlsx
+2025-10-03 19:42:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232045.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 21 chunks from 5232045.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232046.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232046.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232047.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232047.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232048.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232048.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232049.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232049.xlsx
+2025-10-03 19:42:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232050.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 42 chunks from 5232050.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232051.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232051.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232052.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232052.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232053.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232053.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232054.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232054.xlsx
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: Household spending at current prices.csv
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 2 chunks from Household spending at current prices.csv
+2025-10-03 19:42:44 | INFO     | src.data.processors.tabular_processor:process_directory | Processed 1940 total chunks from directory
+2025-10-03 19:42:44 | INFO     | src.data.database.vector_store:add_documents | Adding 1940 documents to vector store
+2025-10-03 19:47:53 | INFO     | src.data.database.vector_store:add_documents | Successfully added 1940 documents
+2025-10-03 19:47:53 | INFO     | src.data.database.vector_store:search | Searching for: 'my age is 20 my income is 19000 how much should i save?' (top_k=2)
+2025-10-03 19:47:53 | INFO     | src.data.database.vector_store:search | Found 2 results
+2025-10-03 19:47:53 | INFO     | src.models.llm:generate_response | Generating response with Ollama (mistral)...
+2025-10-03 19:47:55 | ERROR    | src.models.llm:generate_response | Error generating response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2025-10-03 19:47:55 | ERROR    | src.api.routes:query_rag | Query error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2025-10-03 19:53:43 | INFO     | src.data.database.vector_store:__init__ | Initializing vector store: documents
+2025-10-03 19:53:44 | INFO     | src.models.embeddings:__init__ | Loading embedding model: all-MiniLM-L6-v2
+2025-10-03 19:53:48 | INFO     | src.models.embeddings:__init__ | Embedding model loaded. Dimension: 384
+2025-10-03 19:53:48 | INFO     | src.data.database.vector_store:__init__ | Vector store ready. Documents: 0
+2025-10-03 19:53:50 | INFO     | src.models.llm:__init__ | Ollama LLM initialized: mistral
+2025-10-03 19:53:50 | INFO     | src.api.routes:<module> | All components initialized successfully
+2025-10-03 19:53:50 | INFO     | __main__:main | Starting RAG System API Server...
+2025-10-03 19:53:50 | INFO     | __main__:main | Host: 0.0.0.0
+2025-10-03 19:53:50 | INFO     | __main__:main | Port: 8000
+2025-10-03 19:53:50 | INFO     | __main__:main | Ollama Model: mistral
+2025-10-03 19:53:50 | INFO     | src.api.server:create_app | FastAPI application created successfully
+2025-10-03 19:53:59 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206001_Key_Aggregates.xlsx
+2025-10-03 19:53:59 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206001_Key_Aggregates.xlsx
+2025-10-03 19:53:59 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 18 chunks from 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206006_Industry_GVA.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Created 38 chunks from 5206006_Industry_GVA.xlsx
+2025-10-03 19:54:00 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206007_Income_From_GDP.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206007_Income_From_GDP.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206009_Changes_In_Inventories.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206009_Changes_In_Inventories.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206010_Agricultural_Income.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206010_Agricultural_Income.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206011_National_Income_Account.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206011_National_Income_Account.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206012_National_Capital_Account.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206012_National_Capital_Account.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206013_NFC_Income.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206013_NFC_Income.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206014_PriNFC_Income.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206014_PriNFC_Income.xlsx
+2025-10-03 19:54:01 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206015_PubNFC_Income.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206015_PubNFC_Income.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206016_FC_Income.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206016_FC_Income.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Created 13 chunks from 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206020_Household_Income.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206020_Household_Income.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206021_External_Account.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Created 7 chunks from 5206021_External_Account.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206022_Taxes.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206022_Taxes.xlsx
+2025-10-03 19:54:02 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 19:54:03 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 19:54:03 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 19:54:03 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 19:54:03 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206025_SFD_Summary.xlsx
+2025-10-03 19:54:03 | INFO     | src.data.processors.tabular_processor:process_file | Created 23 chunks from 5206025_SFD_Summary.xlsx
+2025-10-03 19:54:03 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206026_SFD_NSW.xlsx
+2025-10-03 19:54:03 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206026_SFD_NSW.xlsx
+2025-10-03 19:54:03 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206027_SFD_VIC.xlsx
+2025-10-03 19:54:04 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206027_SFD_VIC.xlsx
+2025-10-03 19:54:04 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206028_SFD_QLD.xlsx
+2025-10-03 19:54:04 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206028_SFD_QLD.xlsx
+2025-10-03 19:54:04 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206029_SFD_SA.xlsx
+2025-10-03 19:54:04 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206029_SFD_SA.xlsx
+2025-10-03 19:54:04 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206030_SFD_WA.xlsx
+2025-10-03 19:54:04 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206030_SFD_WA.xlsx
+2025-10-03 19:54:04 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206031_SFD_TAS.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206031_SFD_TAS.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206032_SFD_NT.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206032_SFD_NT.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206033_SFD_ACT.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206033_SFD_ACT.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 19:54:05 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206040_External_Account_Annual.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206040_External_Account_Annual.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206041_Industry_Indexes.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206041_Industry_Indexes.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206044_State_COE_Summary.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206044_State_COE_Summary.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Created 28 chunks from 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232001.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232001.xlsx
+2025-10-03 19:54:06 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232002.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232002.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232003.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232003.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232004.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5232004.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232005.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232005.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232006.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232006.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232007.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232007.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232008.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232008.xlsx
+2025-10-03 19:54:07 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232009.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232009.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232010.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232010.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232011.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232011.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232012.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232012.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232013.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232013.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232014.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Created 33 chunks from 5232014.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232015.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Created 16 chunks from 5232015.xlsx
+2025-10-03 19:54:08 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232016.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Created 50 chunks from 5232016.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232017.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232017.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232018.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Created 22 chunks from 5232018.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232019.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232019.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232020.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232020.xlsx
+2025-10-03 19:54:09 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232021.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5232021.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232022.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232022.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232023.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5232023.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232024.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Created 27 chunks from 5232024.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232025.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Created 20 chunks from 5232025.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232026.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232026.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232027.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232027.xlsx
+2025-10-03 19:54:10 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232028.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232028.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232029.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232029.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232030.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232030.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232031.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232031.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232032.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5232032.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232033.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232033.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232034.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232034.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232035.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232035.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232036.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232036.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232037.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232037.xlsx
+2025-10-03 19:54:11 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232038.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Created 45 chunks from 5232038.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232039.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232039.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232040.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5232040.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232041.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5232041.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232042.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Created 9 chunks from 5232042.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232043.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232043.xlsx
+2025-10-03 19:54:12 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232044.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Created 47 chunks from 5232044.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232045.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Created 21 chunks from 5232045.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232046.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232046.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232047.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232047.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232048.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232048.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232049.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232049.xlsx
+2025-10-03 19:54:13 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232050.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Created 42 chunks from 5232050.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232051.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232051.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232052.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232052.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232053.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232053.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232054.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232054.xlsx
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Processing: Household spending at current prices.csv
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_file | Created 2 chunks from Household spending at current prices.csv
+2025-10-03 19:54:14 | INFO     | src.data.processors.tabular_processor:process_directory | Processed 1940 total chunks from directory
+2025-10-03 19:54:14 | INFO     | src.data.database.vector_store:add_documents | Adding 1940 documents to vector store
+2025-10-03 19:59:10 | INFO     | src.data.database.vector_store:add_documents | Successfully added 1940 documents
+2025-10-03 19:59:11 | INFO     | src.api.routes:query_rag | Processing query: my age is 20 my income is 19000 how much should i save?
+2025-10-03 19:59:11 | INFO     | src.data.database.vector_store:search | Searching for: 'my age is 20 my income is 19000 how much should i save?' (top_k=2)
+2025-10-03 19:59:11 | INFO     | src.data.database.vector_store:search | Found 2 results
+2025-10-03 19:59:11 | INFO     | src.api.routes:query_rag | Context prepared: 1948 characters
+2025-10-03 19:59:11 | INFO     | src.models.llm:generate_response | Sending request to Ollama...
+2025-10-03 19:59:13 | ERROR    | src.models.llm:generate_response | Ollama API error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2025-10-03 19:59:13 | ERROR    | src.models.llm:generate_response | Response status: 500
+2025-10-03 19:59:13 | ERROR    | src.models.llm:generate_response | Response body: {"error":"model requires more system memory (4.6 GiB) than is available (2.1 GiB)"}
+2025-10-03 19:59:13 | INFO     | src.api.routes:query_rag | Query completed successfully
+2025-10-03 20:03:59 | INFO     | src.data.database.vector_store:__init__ | Initializing vector store: documents
+2025-10-03 20:04:00 | INFO     | src.models.embeddings:__init__ | Loading embedding model: all-MiniLM-L6-v2
+2025-10-03 20:04:04 | INFO     | src.models.embeddings:__init__ | Embedding model loaded. Dimension: 384
+2025-10-03 20:04:04 | INFO     | src.data.database.vector_store:__init__ | Vector store ready. Documents: 0
+2025-10-03 20:04:06 | INFO     | src.models.llm:__init__ | Ollama LLM initialized: phi
+2025-10-03 20:04:06 | INFO     | src.api.routes:<module> | All components initialized successfully
+2025-10-03 20:04:06 | INFO     | __main__:main | Starting RAG System API Server...
+2025-10-03 20:04:06 | INFO     | __main__:main | Host: 0.0.0.0
+2025-10-03 20:04:06 | INFO     | __main__:main | Port: 8000
+2025-10-03 20:04:06 | INFO     | __main__:main | Ollama Model: phi
+2025-10-03 20:04:06 | INFO     | src.api.server:create_app | FastAPI application created successfully
+2025-10-03 20:04:28 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206001_Key_Aggregates.xlsx
+2025-10-03 20:04:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206001_Key_Aggregates.xlsx
+2025-10-03 20:04:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 20:04:29 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5206002_Expenditure_Volume_Measures.xlsx
+2025-10-03 20:04:29 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 18 chunks from 5206003_Expenditure_Current_Price.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206004_Expenditure_Price_Indexes.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206005_Expenditure_Implicit_Price_Deflators.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206006_Industry_GVA.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 38 chunks from 5206006_Industry_GVA.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206007_Income_From_GDP.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206007_Income_From_GDP.xlsx
+2025-10-03 20:04:30 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206008_Household_Final_Consumption_Expenditure.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206009_Changes_In_Inventories.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206009_Changes_In_Inventories.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206010_Agricultural_Income.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206010_Agricultural_Income.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206011_National_Income_Account.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206011_National_Income_Account.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206012_National_Capital_Account.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206012_National_Capital_Account.xlsx
+2025-10-03 20:04:31 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206013_NFC_Income.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206013_NFC_Income.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206014_PriNFC_Income.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206014_PriNFC_Income.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206015_PubNFC_Income.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206015_PubNFC_Income.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206016_FC_Income.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5206016_FC_Income.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Created 13 chunks from 5206017_Gen_Govt_Income_Account.xlsx
+2025-10-03 20:04:32 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206018_Nat_Gen_Govt_Income_Account.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 12 chunks from 5206019_StateLocal_Gen_Govt_Income_Account.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206020_Household_Income.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5206020_Household_Income.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206021_External_Account.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 7 chunks from 5206021_External_Account.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206022_Taxes.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5206022_Taxes.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206023_Social_Assistance_Benefits.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5206024_Selected_Analytical_Series.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206025_SFD_Summary.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Created 23 chunks from 5206025_SFD_Summary.xlsx
+2025-10-03 20:04:33 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206026_SFD_NSW.xlsx
+2025-10-03 20:04:34 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206026_SFD_NSW.xlsx
+2025-10-03 20:04:34 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206027_SFD_VIC.xlsx
+2025-10-03 20:04:34 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206027_SFD_VIC.xlsx
+2025-10-03 20:04:34 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206028_SFD_QLD.xlsx
+2025-10-03 20:04:34 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206028_SFD_QLD.xlsx
+2025-10-03 20:04:34 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206029_SFD_SA.xlsx
+2025-10-03 20:04:34 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206029_SFD_SA.xlsx
+2025-10-03 20:04:34 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206030_SFD_WA.xlsx
+2025-10-03 20:04:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206030_SFD_WA.xlsx
+2025-10-03 20:04:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206031_SFD_TAS.xlsx
+2025-10-03 20:04:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206031_SFD_TAS.xlsx
+2025-10-03 20:04:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206032_SFD_NT.xlsx
+2025-10-03 20:04:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206032_SFD_NT.xlsx
+2025-10-03 20:04:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206033_SFD_ACT.xlsx
+2025-10-03 20:04:35 | INFO     | src.data.processors.tabular_processor:process_file | Created 43 chunks from 5206033_SFD_ACT.xlsx
+2025-10-03 20:04:35 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 15 chunks from 5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206035_Income_from_GDP_Inventories_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5206036_Expenditure_on_GDP_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206037_Industry_Gross_Value_Added_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206038_National_Income_Account_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206039_National_Capital_Account_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206040_External_Account_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206040_External_Account_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206041_Industry_Indexes.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206041_Industry_Indexes.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5206042_Unit_Labour_Costs.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5206043_Industry_Indexes_Annual.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206044_State_COE_Summary.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5206044_State_COE_Summary.xlsx
+2025-10-03 20:04:36 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 28 chunks from 5206045_Industry_GVA_Current_Price.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232001.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232001.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232002.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232002.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232003.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232003.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232004.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 8 chunks from 5232004.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232005.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232005.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232006.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232006.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232007.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232007.xlsx
+2025-10-03 20:04:37 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232008.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232008.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232009.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232009.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232010.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 37 chunks from 5232010.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232011.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232011.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232012.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232012.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232013.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232013.xlsx
+2025-10-03 20:04:38 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232014.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 33 chunks from 5232014.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232015.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 16 chunks from 5232015.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232016.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 50 chunks from 5232016.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232017.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232017.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232018.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 22 chunks from 5232018.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232019.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232019.xlsx
+2025-10-03 20:04:39 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232020.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232020.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232021.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 30 chunks from 5232021.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232022.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232022.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232023.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 25 chunks from 5232023.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232024.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 27 chunks from 5232024.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232025.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 20 chunks from 5232025.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232026.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232026.xlsx
+2025-10-03 20:04:40 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232027.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232027.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232028.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 31 chunks from 5232028.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232029.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232029.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232030.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 29 chunks from 5232030.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232031.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232031.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232032.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 19 chunks from 5232032.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232033.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232033.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232034.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Created 24 chunks from 5232034.xlsx
+2025-10-03 20:04:41 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232035.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232035.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232036.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232036.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232037.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 5 chunks from 5232037.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232038.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 45 chunks from 5232038.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232039.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 6 chunks from 5232039.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232040.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 10 chunks from 5232040.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232041.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 11 chunks from 5232041.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232042.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 9 chunks from 5232042.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232043.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232043.xlsx
+2025-10-03 20:04:42 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232044.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 47 chunks from 5232044.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232045.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 21 chunks from 5232045.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232046.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232046.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232047.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232047.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232048.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Created 26 chunks from 5232048.xlsx
+2025-10-03 20:04:43 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232049.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 32 chunks from 5232049.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232050.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 42 chunks from 5232050.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232051.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232051.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232052.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 4 chunks from 5232052.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232053.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 14 chunks from 5232053.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: 5232054.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 36 chunks from 5232054.xlsx
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Processing: Household spending at current prices.csv
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_file | Created 2 chunks from Household spending at current prices.csv
+2025-10-03 20:04:44 | INFO     | src.data.processors.tabular_processor:process_directory | Processed 1940 total chunks from directory
+2025-10-03 20:04:44 | INFO     | src.data.database.vector_store:add_documents | Adding 1940 documents to vector store
+2025-10-03 20:09:32 | INFO     | src.data.database.vector_store:add_documents | Successfully added 1940 documents
+2025-10-03 20:09:32 | INFO     | src.api.routes:query_rag | Processing query: my age is 20 my income is 19000 how much should i save?
+2025-10-03 20:09:32 | INFO     | src.data.database.vector_store:search | Searching for: 'my age is 20 my income is 19000 how much should i save?' (top_k=2)
+2025-10-03 20:09:33 | INFO     | src.data.database.vector_store:search | Found 2 results
+2025-10-03 20:09:33 | INFO     | src.api.routes:query_rag | Context prepared: 1948 characters
+2025-10-03 20:09:33 | INFO     | src.models.llm:generate_response | Sending request to Ollama...
+2025-10-03 20:11:40 | INFO     | src.models.llm:generate_response | Response generated successfully
+2025-10-03 20:11:40 | INFO     | src.api.routes:query_rag | Query completed successfully
+2025-10-03 20:12:26 | INFO     | src.api.routes:query_rag | Processing query: my age is 20 my income is 25000 how much should i save ?
+2025-10-03 20:12:26 | INFO     | src.data.database.vector_store:search | Searching for: 'my age is 20 my income is 25000 how much should i save ?' (top_k=2)
+2025-10-03 20:12:26 | INFO     | src.data.database.vector_store:search | Found 2 results
+2025-10-03 20:12:26 | INFO     | src.api.routes:query_rag | Context prepared: 1948 characters
+2025-10-03 20:12:26 | INFO     | src.models.llm:generate_response | Sending request to Ollama...
+2025-10-03 20:12:44 | INFO     | src.models.llm:generate_response | Response generated successfully
+2025-10-03 20:12:44 | INFO     | src.api.routes:query_rag | Query completed successfully
+2025-10-03 20:13:25 | INFO     | src.api.routes:query_rag | Processing query: my age is 20 my income is 25000 how much should i save ?
+2025-10-03 20:13:25 | INFO     | src.data.database.vector_store:search | Searching for: 'my age is 20 my income is 25000 how much should i save ?' (top_k=5)
+2025-10-03 20:13:25 | INFO     | src.data.database.vector_store:search | Found 5 results
+2025-10-03 20:13:25 | INFO     | src.api.routes:query_rag | Context prepared: 1948 characters
+2025-10-03 20:13:25 | INFO     | src.models.llm:generate_response | Sending request to Ollama...
+2025-10-03 20:14:13 | INFO     | src.models.llm:generate_response | Response generated successfully
+2025-10-03 20:14:13 | INFO     | src.api.routes:query_rag | Query completed successfully

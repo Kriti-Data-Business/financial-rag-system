@@ -1,0 +1,272 @@
+
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "🛠️ Setup Environment",
+            "type": "shell",
+            "command": "python",
+            "args": ["scripts/setup_environment.py"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "📊 Collect All Data",
+            "type": "shell",
+            "command": "python",
+            "args": ["scripts/collect_data.py", "--source", "all"],
+            "group": "build",
+            "dependsOn": "🛠️ Setup Environment",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "🗄️ Initialize Knowledge Base",
+            "type": "shell",
+            "command": "python",
+            "args": ["scripts/initialize_rag.py"],
+            "group": "build",
+            "dependsOn": "📊 Collect All Data",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "🧪 Run All Tests",
+            "type": "shell",
+            "command": "python",
+            "args": ["-m", "pytest", "tests/", "-v", "--tb=short"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "🧪 Run Tests with Coverage",
+            "type": "shell",
+            "command": "python",
+            "args": ["-m", "pytest", "tests/", "--cov=src", "--cov-report=html", "--cov-report=term"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "✨ Format Code",
+            "type": "shell",
+            "command": "black",
+            "args": ["src/", "app/", "tests/", "scripts/"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "🔍 Lint Code",
+            "type": "shell",
+            "command": "flake8",
+            "args": ["src/", "app/", "--max-line-length=88", "--extend-ignore=E203,W503"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                {
+                    "owner": "flake8",
+                    "fileLocation": "absolute",
+                    "pattern": {
+                        "regexp": "^(.+):(\\d+):(\\d+):\\s+(\\w+)\\s+(.+)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ]
+        },
+        {
+            "label": "🚀 Start Streamlit App",
+            "type": "shell",
+            "command": "streamlit",
+            "args": ["run", "app/main.py", "--server.port", "8501"],
+            "isBackground": true,
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "dedicated"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src"
+                }
+            },
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        },
+        {
+            "label": "📚 Generate Documentation",
+            "type": "shell",
+            "command": "python",
+            "args": ["scripts/generate_docs.py"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "🧹 Clean Cache",
+            "type": "shell",
+            "command": "python",
+            "args": ["scripts/clean_cache.py"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "🔄 Full System Reset",
+            "type": "shell",
+            "command": "python",
+            "args": ["scripts/reset_system.py"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "dedicated"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "📈 Run Performance Benchmark",
+            "type": "shell",
+            "command": "python",
+            "args": ["src/evaluation/benchmarks.py", "--mode", "performance"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "💰 Test Financial Calculations",
+            "type": "shell",
+            "command": "python",
+            "args": ["-c", "from src.models.financial_calculator import FinancialCalculator; calc = FinancialCalculator(); print('Emergency fund for $3000/month:', calc.calculate_emergency_fund(3000)); print('Super guarantee for $75000 salary:', calc.calculate_super_guarantee(75000))"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src"
+                }
+            },
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+
+
+[
+  {
+    "content": "Australian household income statistics show significant wealth distribution across income quintiles. The lowest income quintile households have a median weekly disposable income of $540 and median net worth of $551,460. These households primarily rely on government pensions and allowances (58.3%) and have limited capacity for investment beyond basic emergency savings.",
+    "metadata": {
+      "source": "ABS",
+      "dataset": "household_income_distribution", 
+      "category": "economic_statistics",
+      "income_quintile": "Lowest quintile",
+      "collection_date": "2025-09-30T21:40:00",
+      "reference_period": "2021-22"
+    }
+  },
+  {
+    "content": "Australian superannuation statistics for age group 25-34 show median balance of $23,000. Young professionals should focus on maximizing employer contributions through salary sacrifice and choosing growth investment options. The superannuation guarantee rate is 11% of ordinary time earnings, with annual concessional contribution cap of $27,500.",
+    "metadata": {
+      "source": "APRA",
+      "dataset": "superannuation_statistics",
+      "category": "retirement_planning", 
+      "age_group": "25-34",
+      "collection_date": "2025-09-30T21:40:00",
+      "reference_period": "2024"
+    }
+  },
+  {
+    "content": "Vanguard Australian Shares Index ETF (VAS) provides broad exposure to Australian equities tracking the ASX 300 index. Management fee of 0.10% makes it cost-effective for long-term investors. Current price around $85 AUD per unit with dividend yield of approximately 4.2%. Suitable for investors seeking domestic market growth with franked dividend income.",
+    "metadata": {
+      "source": "ASX",
+      "dataset": "investment_options",
+      "category": "australian_equities",
+      "symbol": "VAS.AX",
+      "asset_class": "ETF",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Gold prices in Australian dollars continue strong performance reaching $3,800+ per ounce. The precious metals market shows 22.3% yearly gains driven by central bank purchases, geopolitical uncertainty, and Australian dollar weakness. Silver has outperformed at $71+ AUD per ounce with 24.6% returns, supported by industrial demand and investment flows.",
+    "metadata": {
+      "source": "precious_metals_market",
+      "dataset": "commodity_prices",
+      "category": "alternative_investments",
+      "metals": "gold,silver",
+      "currency": "AUD",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Emergency funds should cover 6 months of essential expenses for Australian households. This provides financial security for unexpected costs like medical bills, car repairs, or temporary loss of income. High-yield online savings accounts currently offer 4.5-5.5% annual interest, while term deposits provide guaranteed returns of 4.0-4.5% for 12-month terms.",
+    "metadata": {
+      "source": "financial_planning_guide",
+      "dataset": "emergency_fund_guidance", 
+      "category": "financial_planning",
+      "topic": "emergency_savings",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Australian tax brackets for 2023-24 financial year: Tax-free threshold $18,200, 19% rate for $18,201-$45,000, 32.5% rate for $45,001-$120,000, 37% rate for $120,001-$180,000, and 45% rate above $180,000. Medicare levy of 2% applies. Salary sacrifice to superannuation is taxed at 15% rather than marginal tax rates.",
+    "metadata": {
+      "source": "ATO",
+      "dataset": "taxation_rules",
+      "category": "tax_planning",
+      "financial_year": "2023-24",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Northern Star Resources (NST.AX) is Australia's largest gold producer with strong operational performance. Current share price around $12.50 AUD, up 45% year-to-date benefiting from rising gold prices. The company operates multiple gold mines across Australia and pays regular dividends. Market cap approximately $14 billion AUD.",
+    "metadata": {
+      "source": "ASX",
+      "dataset": "asx_mining_stocks",
+      "category": "precious_metals_equities", 
+      "symbol": "NST.AX",
+      "sector": "Gold Mining",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Reserve Bank of Australia cash rate currently at 4.35%, influencing mortgage rates, savings rates, and investment returns. This elevated level reflects monetary policy tightening to combat inflation. Current inflation rate (CPI) at 3.8%, down from recent peaks but still above RBA target range of 2-3%. Unemployment rate at 4.2%.",
+    "metadata": {
+      "source": "RBA",
+      "dataset": "economic_indicators",
+      "category": "economic_data",
+      "indicators": "cash_rate,inflation,unemployment",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Investment allocation strategies should reflect age, risk tolerance, and time horizon. A common approach subtracts age from 100 to determine equity allocation percentage. For example, a 30-year-old might hold 70% in shares and 30% in bonds or cash. Australian investors should consider geographic diversification with 20-40% international exposure through VGS or similar ETFs.",
+    "metadata": {
+      "source": "investment_strategy_guide",
+      "dataset": "portfolio_allocation",
+      "category": "investment_planning",
+      "strategy_type": "age_based_allocation",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Commonwealth Bank (CBA.AX) term deposits offer guaranteed returns with capital protection. Current rates around 4.5% for 12-month terms from major Australian banks including ANZ, Westpac, and NAB. Government guarantee up to $250,000 per depositor per institution. Suitable for conservative investors requiring capital certainty and regular income.",
+    "metadata": {
+      "source": "major_banks",
+      "dataset": "cash_investments",
+      "category": "defensive_assets",
+      "product_type": "term_deposits",
+      "guarantee": "APRA_protected",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Australian property investment through Real Estate Investment Trusts (REITs) provides exposure without direct ownership challenges. Vanguard Australian Property Securities Index ETF (VAP) offers diversified exposure to commercial and residential property markets. Management fee 0.23%, current distribution yield around 4.8%. Alternative to direct property investment.",
+    "metadata": {
+      "source": "property_investment_guide", 
+      "dataset": "property_securities",
+      "category": "alternative_investments",
+      "investment_type": "REITs",
+      "symbol": "VAP.AX",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Salary sacrifice for superannuation provides tax benefits for higher income earners. Contributions taxed at 15% in super rather than marginal tax rate. Most beneficial for those in 32.5% or higher tax brackets, providing 17.5% or greater tax savings. Annual concessional contribution cap is $27,500 including employer contributions.",
+    "metadata": {
+      "source": "superannuation_strategy_guide",
+      "dataset": "super_optimization", 
+      "category": "tax_effective_investing",
+      "strategy": "salary_sacrifice",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "BetaShares NASDAQ 100 ETF (NDQ.AX) provides exposure to major US technology companies including Apple, Microsoft, Google, and Tesla. Higher risk-return profile with concentration in growth stocks. Management fee 0.48%, current price around $35 AUD per unit. Suitable for investors seeking technology sector exposure and international diversification.",
+    "metadata": {
+      "source": "ASX",
+      "dataset": "international_etfs",
+      "category": "technology_investments",
+      "symbol": "NDQ.AX", 
+      "geographic_exposure": "US_technology",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Australian financial planning prioritizes emergency funds, superannuation optimization, and diversified investment portfolios. Key principles include: build 6-month emergency fund first, maximize employer super contributions, pay down high-interest debt before investing, diversify across asset classes, and consider tax-effective investment structures like franked dividends.",
+    "metadata": {
+      "source": "comprehensive_financial_guide",
+      "dataset": "financial_planning_principles",
+      "category": "holistic_planning",
+      "audience": "australian_investors",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  },
+  {
+    "content": "Capital gains tax in Australia applies to assets sold for profit. 50% CGT discount available for assets held over 12 months by individuals. Consider timing asset sales to manage taxable income across financial years. Annual CGT-free threshold currently $18,200. Franked dividends from Australian companies provide tax credits, making them tax-effective for many investors.",
+    "metadata": {
+      "source": "ATO_tax_guidance",
+      "dataset": "capital_gains_tax",
+      "category": "tax_optimization",
+      "tax_strategy": "CGT_discount",
+      "collection_date": "2025-09-30T21:40:00"
+    }
+  }
+]

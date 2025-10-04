@@ -1,0 +1,55 @@
+
+
+{
+    "python.defaultInterpreterPath": "./venv/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length=88"],
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": ["tests/"],
+    
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        ".pytest_cache": true,
+        "data/processed/embeddings/": true,
+        "*.log": true,
+        ".env": true
+    },
+    
+    "python.analysis.extraPaths": ["./src"],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.terminal.activateEnvironment": true,
+    
+    "editor.rulers": [88],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    
+    "files.associations": {
+        "*.yaml": "yaml",
+        "*.yml": "yaml"
+    },
+    
+    "yaml.schemas": {
+        "config/schema.json": "config/*.yaml"
+    },
+    
+    "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    
+    "git.ignoreLimitWarning": true,
+    
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+    },
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+    },
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}\\src"
+    }
+}

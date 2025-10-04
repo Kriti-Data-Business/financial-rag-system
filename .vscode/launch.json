@@ -1,0 +1,182 @@
+
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🚀 Run Streamlit App",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/venv/bin/streamlit",
+            "args": ["run", "app/main.py"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "Main Apps"
+            }
+        },
+        {
+            "name": "🧠 Test RAG System",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/models/rag_system.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "Testing"
+            }
+        },
+        {
+            "name": "📊 Run Data Collection",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/collect_data.py",
+            "console": "integratedTerminal",
+            "args": ["--source", "all"],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "Data Pipeline"
+            }
+        },
+        {
+            "name": "🏦 Test Financial Calculator",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/models/financial_calculator.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "Testing"
+            }
+        },
+        {
+            "name": "💎 Collect Precious Metals Data",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/data/collectors/metals_collector.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "Data Pipeline"
+            }
+        },
+        {
+            "name": "📈 Collect ASX Data",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/data/collectors/asx_collector.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "Data Pipeline"
+            }
+        },
+        {
+            "name": "🔍 Test Embeddings",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/models/embedding_manager.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "Testing"
+            }
+        },
+        {
+            "name": "🗄️ Test ChromaDB",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/data/database/chroma_manager.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "Testing"
+            }
+        },
+        {
+            "name": "🧪 Run Evaluation Framework",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/evaluation/benchmarks.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "Testing"
+            }
+        },
+        {
+            "name": "📋 Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "General"
+            }
+        },
+        {
+            "name": "📝 Debug Current File with Args",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["${input:customArgs}"],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "presentation": {
+                "hidden": false,
+                "group": "General"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "customArgs",
+            "type": "promptString",
+            "description": "Enter custom command line arguments"
+        }
+    ]
+}
